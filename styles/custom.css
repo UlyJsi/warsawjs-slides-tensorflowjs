@@ -1,3 +1,51 @@
 .details img {
   width: 200px;
 }
+
+.pros img {
+  width: 700px;
+  position: relative;
+  margin-top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pros p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.last span {
+  color: red;
+}
+
+.release-log-img {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/release-log.jpg);
+}
+
+.models-img {
+  width: 60%;
+}
+
+.models-ex-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.models-ex-container div {
+  width: 50%;
+}
+
+.models-ex-container p {
+  font-size: 20px;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
